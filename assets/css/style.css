@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #526450;
+  color: #495748;
 }
 
 :root {
@@ -19,8 +19,15 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
 }
+
+/* -----Shared start ---- */
+.spacious{
+  margin-top: 10vh;
+}
+/* -----Shared start ---- */
 
 /*--------------------------------------------------------------
 # Sections
@@ -65,7 +72,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #6ddb89;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -186,7 +193,8 @@ header .header-box{
   font-weight: 700;
   letter-spacing: 1px;
   color: #455879;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
   margin-top: 3px;
 }
 
@@ -218,7 +226,8 @@ header .header-box{
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
   font-size: 16px;
   font-weight: 700;
   color: black;
@@ -251,7 +260,7 @@ header .header-box{
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: rgb(221, 155, 155);
+  color: rgb(32, 28, 28);
   background: #2db6fa;
 }
 
@@ -325,7 +334,7 @@ header .header-box{
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #6ddb89;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -402,7 +411,7 @@ header .header-box{
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #6ddb89;
 }
 
 .navbar-mobile a:hover,
@@ -560,7 +569,8 @@ header .header-box{
 .about h1,h3 {
   font-weight: 700;
   color: #b061b8;
-  margin: 30px;
+  margin: 10px;
+  text-align: left;
 }
 
 .about p {
@@ -574,12 +584,13 @@ header .header-box{
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #7641f1;
+  background: #6ddb89;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -647,7 +658,7 @@ header .header-box{
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
+  color: #6ddb89;
 }
 
 .counts .count-box span {
@@ -660,7 +671,8 @@ header .header-box{
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
   font-size: 14px;
 }
 
@@ -692,7 +704,7 @@ header .header-box{
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #6ddb89;
   color: #fff;
 }
 
@@ -745,7 +757,7 @@ header .header-box{
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #6ddb89;
 }
 
 .features .feature-icons {
@@ -774,7 +786,7 @@ header .header-box{
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #6ddb89;
 }
 
 .features .feature-icons .content .icon-box i {
@@ -796,7 +808,7 @@ header .header-box{
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
   padding: 60px 30px;
-  text-align: center;
+  text-align: left;
   transition: 0.3s;
   border-radius: 5px;
 }
@@ -833,7 +845,7 @@ header .header-box{
 }
 
 .services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+  border-bottom: 7px solid #2db6fa;
 }
 
 .services .service-box.blue .icon {
@@ -850,7 +862,7 @@ header .header-box{
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid #f68c09;
+  border-bottom: 7px solid #f68c09;
 }
 
 .services .service-box.orange .icon {
@@ -867,7 +879,7 @@ header .header-box{
 }
 
 .services .service-box.green {
-  border-bottom: 3px solid #08da4e;
+  border-bottom: 7px solid #08da4e;
 }
 
 .services .service-box.green .icon {
@@ -883,21 +895,21 @@ header .header-box{
   background: #08da4e;
 }
 
-.services .service-box.red {
-  border-bottom: 3px solid #e9222c;
+.services .service-box.grey {
+  border-bottom: 7px solid #848484;
 }
 
-.services .service-box.red .icon {
-  color: #e9222c;
+.services .service-box.grey .icon {
+  color: #848484;
   background: #fef7f8;
 }
 
-.services .service-box.red .read-more {
-  color: #e9222c;
+.services .service-box.grey .read-more {
+  color: #848484;
 }
 
-.services .service-box.red:hover {
-  background: #e9222c;
+.services .service-box.grey:hover {
+  background: #848484;
 }
 
 .services .service-box.purple {
@@ -944,18 +956,33 @@ header .header-box{
   background: #fff;
 }
 
+
+.services i img{
+  height: 22vh;
+  width: 33vh;
+}
+
+
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing .container{
+  display:list-item;
+  justify-content: space-around;
+}
+
 .pricing .box {
-  padding: 40px 20px;
-  background: #fff;
+  padding: 30px;
+  width: 37vh;
+  background: #eee;
   text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 33px rgba(1, 41, 112, 0.08);
   border-radius: 4px;
-  position: relative;
   overflow: hidden;
   transition: 0.3s;
+  margin-left: 7%;
+  list-style: none;
 }
 
 .pricing .box:hover {
@@ -1015,14 +1042,15 @@ header .header-box{
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #f51f9c;
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #fff;
+  box-shadow: 16px 5px#b7b7b7;
 }
 
 .pricing .btn-buy:hover {
@@ -1030,18 +1058,19 @@ header .header-box{
   color: #fff;
 }
 
-.pricing .featured {
+/* .pricing .featured {
   width: 200px;
   position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(10deg);
-  z-index: 1;
+  top: 70px;
+  left: 78px;
+  transform: rotate(-10deg);
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background: #b95b5b;
   color: #fff;
-}
+  border-top-right-radius: 50%;
+  border-top-left-radius: 20%;
+} */
 
 /*--------------------------------------------------------------
 # F.A.Q
@@ -1536,7 +1565,7 @@ header .header-box{
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
   position: relative;
   display: flex;
@@ -1549,36 +1578,28 @@ header .header-box{
   position: relative;
   height: 290px;
   width: 290px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .recent-blog-posts .post-box .post-img img {
   transition: 0.5s;
 }
 
-.recent-blog-posts .post-box .post-date {
-  font-size: 16px;
-  font-weight: 600;
-  color: rgba(1, 41, 112, 0.6);
-  display: block;
-  margin-bottom: 10px;
-}
-
 .recent-blog-posts .post-box .post-title {
-  font-size: 24px;
-  color: #012970;
+  font-size: 20px;
+  color: #161718;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
   transition: 0.3s;
+  margin-top: -40px;
 }
 
 .recent-blog-posts .post-box .readmore {
-  display: flex;
-  align-items: center;
   font-weight: 600;
   line-height: 1;
   transition: 0.3s;
+  text-align: center;
 }
 
 .recent-blog-posts .post-box .readmore i {
@@ -1592,27 +1613,27 @@ header .header-box{
 }
 
 .recent-blog-posts .post-box:hover .post-img img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
-  background: #fafbff;
+  color: #fafbff ;
+  background: #8d8b8b;
   padding: 30px;
 }
 
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #eee;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: black;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1752,12 +1773,12 @@ header .header-box{
 }
 
 .blog .entry .entry-title a {
-  color: #012970;
+  color: #6ddb89;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #4154f1;
+  color: #6ddb89;
 }
 
 .blog .entry .entry-meta {
@@ -2292,12 +2313,25 @@ header .header-box{
   background: #5969f3;
 }
 
-.footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+ .footer-top {
+  background: black;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
   padding: 60px 0 30px 0;
+}
+
+.footer-top a, p{
+  color: #fff;
+}
+
+.footer-top h4{
+  color: #f68c09;
+}
+
+.footer-top ul{
+  color: #fff;
+  list-style: none;
 }
 
 @media (max-width: 992px) {
@@ -2325,7 +2359,8 @@ header .header-box{
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
   margin-top: 3px;
 }
 
@@ -2333,7 +2368,8 @@ header .header-box{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Hind', sans-serif;
+
 }
 
 .footer .footer-top .social-links a {
