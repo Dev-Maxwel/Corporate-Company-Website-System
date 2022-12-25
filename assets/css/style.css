@@ -1714,17 +1714,20 @@ header .header-box{
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #e77;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  align-items: flex-end;
+  justify-content: end;
 }
 
 .contact .php-email-form button[type=submit]:hover {
   background: #5969f3;
 }
+
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -2321,8 +2324,16 @@ header .header-box{
   padding: 60px 0 30px 0;
 }
 
-.footer-top a, p{
-  color: #fff;
+.container a, p{
+  color: #495748;
+}
+
+.footer-top .container ul li a{
+  color: #eeee;
+}
+
+.footer-top .container a span{
+  color: azure;
 }
 
 .footer-top h4{
@@ -2332,6 +2343,18 @@ header .header-box{
 .footer-top ul{
   color: #fff;
   list-style: none;
+}
+
+#socialmedia{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#socialmedia a i{
+  font-size: 25px;
+  color: skyblue;
+  margin: 5px;
 }
 
 @media (max-width: 992px) {
@@ -2447,4 +2470,9 @@ header .header-box{
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.col-lg-6 p{
+  color: #feecf7;
+  font-size: 28px;
 }
