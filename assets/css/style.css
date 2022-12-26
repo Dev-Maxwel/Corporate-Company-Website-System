@@ -23,6 +23,7 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+
 /* -----Shared start ---- */
 .spacious{
   margin-top: 10vh;
@@ -695,12 +696,13 @@ header .header-box{
 
 .features .feature-box i {
   line-height: 0;
-  background: #ecf3ff;
-  padding: 4px;
+  background: #6ddb89;
+  padding: 3px;
   margin-right: 10px;
   font-size: 24px;
   border-radius: 3px;
   transition: 0.3s;
+  color: #FFF;
 }
 
 .features .feature-box:hover i {
