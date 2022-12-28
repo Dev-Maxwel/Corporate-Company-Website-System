@@ -8,32 +8,37 @@
     <link rel="icon" href="assets/img/M-khansoftwebs.com.webp">
     <link rel="stylesheet" href="assets/css/accounts.css">
     <link rel="stylesheet" href="assets\vendor\bootstrap\css\bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
-</head>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet"></head>
 <body>
 
-    <div class="account-area">
-
-        <form action="" method="POST">
-            <div class="header">
-                <img src="assets/img/M-khansoftwebs.com.webp" alt="">
-                <h1>Login</h1>
-            </div>
-            
-            <label for="">email</label>
-            <input type="email">
-            <label for="">your name</label>
-            <input type="text">
-            <label for="">password</label>
-            <input type="password">
+    <div class="login-box">
+        <img src="assets/img/M-khansoftwebs.com.webp" alt="logo" class="logo">
+        <h1>Sign in</h1>
+        <div class="form-box">
            
-        </form>
+            <form>
+                <input type="email" placeholder="Your Business Email" class="fx-input" name="email">
 
-        <div class="extra">
-            <div class="btn btn-outline-warning"><h5>Dont have an account? <a href="signup.html">Sign up</a></h5></div>     
-        </div>
+                <div class="toggle">
+                    <input type="password" placeholder="Password" class="fx-input" name="password" id="password">
+                    <i onclick="toggle_password()" class="bi bi-eye"></i>
+                </div>
+                
+                 <input type="button" value="Sign In" class="btn btn-outline-warning" style="margin-bottom: 1.5em;">
+                 
+                 <p class="fp"><a href="#">forgot password?</a></p>
+            </form>
+        
+      </div>
+        <br>
+        <p>Not a member? <a href="signup.html"><strong>Sign up</strong></a></p>
+        
+
 
     </div>
     
+
+    <script src="assets/js/accounts.js"></script> 
 </body>
 </html>

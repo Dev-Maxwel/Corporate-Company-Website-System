@@ -7,34 +7,36 @@
     <title>Sign up</title>
     <link rel="icon" href="assets/img/M-khansoftwebs.com.webp">
     <link rel="stylesheet" href="assets/css/accounts.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets\vendor\bootstrap\css\bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet"></head>
 <body>
 
-    <div class="account-area">
+    <div class="signup-box">
+        <img src="assets/img/M-khansoftwebs.com.webp" alt="logo" class="logo">
+        <h1>Sign-up</h1>
 
-        <form action="" method="POST">
-            <div class="header">
-                <img src="assets/img/M-khansoftwebs.com.webp" alt="">
-                <h1>Login</h1>
-            </div>
-            
-            <label for="">email</label>
-            <input type="email">
-            <label for="">your name</label>
-            <input type="text">
-            <label for="">password</label>
-            <input type="password">
-            <label for="">confirm password</label>
-            <input type="password">
-        </form>
-
-        <div class="extra">
-            <div class="btn btn-outline-warning"><h5>Sign in</h5></div>     
+        <div class="form-box">
+            <form class="form">
+                <input type="email" placeholder="Your business Email" class="fx-input" name="email">
+                <input type="text" placeholder="Your Business Name" class="fx-input" name="business_name">
+                <div class="toggle">
+                    <input type="password" placeholder="Input your Password" class="fx-input" name="password" id="password">
+                    <i onclick="toggle_password()" class="bi bi-eye"></i>
+                </div>
+                <div class="toggle">
+                    <input type="password" placeholder="Confirm Password" class="fx-input" name="password1" id="password1">
+                    <i onclick="toggle_password()" class="bi bi-eye"></i>
+                </div>
+                <input type="button" value="Register" class="btn btn-outline-warning">
+            </form>
         </div>
+        <p>Already have an account? <a href="signin.html"><strong>Sign in</strong></a></p>
+
 
     </div>
     
+
+    <script src="assets/js/accounts.js"></script> 
 </body>
 </html>

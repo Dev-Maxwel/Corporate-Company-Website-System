@@ -1,0 +1,27 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+h2{
+    font-family: 'Monoton', cursive;
+}
+
+.invoice-container{
+    padding: 70px;
+    max-width: 860px;
+    border-style: ridge;
+    border-style:groove;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+img{
+    height: 150px;
+    width: 230px;
+    margin-left: -55px;
+}
+
+a{
+    text-decoration: none;
+}
