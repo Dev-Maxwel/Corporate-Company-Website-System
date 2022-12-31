@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #495748;
 }
 
@@ -176,7 +176,7 @@ header .header-box{
   background: #fff;
   padding: 3px 0;
   box-shadow: 0px 2px 10px rgba(1, 41, 112, 0.1);
-  height: 11em;
+  height: 9em;
   margin-top: -3em;
   color: #444444;
 }
@@ -331,9 +331,7 @@ header .header-box{
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+/* Mobile Navigation */
 .mobile-nav-toggle {
   color: #6ddb89;
   font-size: 28px;
@@ -1617,6 +1615,23 @@ header .header-box{
 .recent-blog-posts .post-box:hover .post-img img {
   transform: scale(1.1);
 }
+
+/* blogs home container */
+
+#blogs-home-container{
+  margin-top: 15vh;
+}
+
+#blogs-home-container h3{
+  background-color: rgb(238, 234, 234);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.main-heading{
+  margin-bottom: 3em;
+}
+/* blogs home container */
 
 /*--------------------------------------------------------------
 # Contact
