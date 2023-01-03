@@ -17,7 +17,7 @@ body {
     font-size: 15px;
     line-height: 26px;
     background-color: #ffffff;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -27,7 +27,8 @@ h4,
 h5,
 body,
 p {
-    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 p{
